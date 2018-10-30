@@ -3,7 +3,7 @@ package org.xlb.algorithm.sort;
 import org.xlb.algorithm.utils.PrintUtils;
 
 /**
- * ц╟ещеепР
+ * Е├▓ФЁ║Ф▌▓Е╨▐
  * @author Jack Xie
  */
 public class Bubble {

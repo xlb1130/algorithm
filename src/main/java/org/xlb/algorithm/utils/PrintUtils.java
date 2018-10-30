@@ -1,7 +1,7 @@
 package org.xlb.algorithm.utils;
 
 /**
- * Êı×é´òÓ¡¹¤¾ßÀà
+ * æ‰“å°å·¥å…·ç±»
  * @author xlb
  *
  */
