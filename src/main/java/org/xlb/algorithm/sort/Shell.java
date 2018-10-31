@@ -8,6 +8,11 @@ import org.xlb.algorithm.utils.PrintUtils;
  */
 public class Shell {
 
+	/**
+	 * 时间复杂度为O(n^(1.3—2))
+	 * @param srcArray
+	 * @return
+	 */
 	public static int[] sort(int[] srcArray){
 		int d = srcArray.length;
 		while(d>1){

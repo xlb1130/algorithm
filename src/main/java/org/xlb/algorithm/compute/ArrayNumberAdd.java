@@ -35,11 +35,11 @@ public class ArrayNumberAdd {
         int[] desArray = srcArray.clone();
         srcArray = Selection.sort(srcArray);
         desArray = Selection.sort(desArray);
-        int i=0,j=0,k=0;
+        int i=0,j=0;
         while(i<srcArray.length && j<desArray.length){
             if(srcArray[i] == desArray[j]){
                 System.out.println("二路归并查找：srcArray["+i+"]="+srcArray[i]+"   srcArray["+j+"]="+srcArray[j]);
-                i++;k++;j++;
+                i++;j++;
             }else if(srcArray[i] < desArray[j]){
                 i++;
             }else if(srcArray[i] > desArray[j]){
