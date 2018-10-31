@@ -7,7 +7,12 @@ import org.xlb.algorithm.utils.PrintUtils;
  * @author Jack Xie
  */
 public class Selection {
-	
+
+	/**
+	 * 时间复杂度为O(n2)
+	 * @param srcArray
+	 * @return
+	 */
 	public static int[] sort(int[] srcArray){
 		int temp = 0;
 		for(int i=0; i<srcArray.length; i++){
